@@ -1,0 +1,92 @@
+@charset"utf-8";
+@import url(reset.css);
+/*div#wrap*/
+div#wrap{
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+/*div#wrap*/
+
+nav#gnb{
+    padding: 10px;
+/*
+    border: 1px solid #aaa;
+*/
+}
+
+ul#mainMenu{
+/*
+    border: 1px solid #80ff80;
+*/
+}
+
+li.mainLi{
+    list-style: none;
+/*
+    border: 1px solid #f80;
+*/
+
+    position: relative;
+}
+#gnb a{
+    border: 1px solid #aaa;
+
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+
+    display: inline-block;
+}
+
+#gnb ul.subMenu{
+    display: none;
+    position: absolute; /*: li인 자식요소가 3차원--> 선택되지못함 */
+}
+
+/*하이라이트 효과 = :hover */
+#gnb li.mainLi:hover>a,
+#gnb li.subLi>a:hover {
+    color: #fff;
+    background-color: #08f;
+}
+/*nav#gnb*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
